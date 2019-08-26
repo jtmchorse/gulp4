@@ -1,0 +1,11 @@
+@import "reset.scss";
+@import "vars.scss";
+body {
+  background-color: $highlight;
+}
+h1 {
+  color:$max;
+  > span {
+    color: $min;
+  }
+}
